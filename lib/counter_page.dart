@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/provider_route.dart';
+import 'package:flutter_playground/provider_route_page.dart';
 import 'package:flutter_playground/share_data_widget.dart';
 
 /// FileName counter_page
@@ -26,7 +26,6 @@ class _CounterPageState extends State<CounterPage> {
       appBar: AppBar(
         title: const Text('CounterPage'),
       ),
-      /*
       body: Column(
         children: [
           ShareDataWidget(
@@ -63,16 +62,6 @@ class _CounterPageState extends State<CounterPage> {
           // const CounterNumberWidget()
         ],
       )
-       */
-      body: ShareDataWidget(
-        data: count,
-        child: Builder(builder: (context){
-          return Center(
-            // 使用InheritedWidget中的共享数据
-            child: Text(ShareDataWidget.of(context)?.data.toString() ?? 'counter number is null'),
-          );
-        })
-      ),
     );
   }
 

@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter_playground/Cart/item.dart';
-import 'package:flutter_playground/change_notifier.dart';
+import 'package:flutter_playground/provider/change_notifier.dart';
 
 /// FileName cart_model
 ///

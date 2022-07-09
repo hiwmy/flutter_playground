@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/change_notifier_provider.dart';
-import 'package:flutter_playground/consumer.dart';
+import 'package:flutter_playground/provider/change_notifier_provider.dart';
+import 'package:flutter_playground/provider/consumer.dart';
 
 import 'Cart/cart_model.dart';
 import 'Cart/item.dart';

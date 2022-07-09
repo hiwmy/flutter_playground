@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/change_notifier_provider.dart';
+import 'package:flutter_playground/provider/change_notifier_provider.dart';
 
 /// FileName consumer
 ///

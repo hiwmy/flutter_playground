@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/change_notifier.dart';
-import 'package:flutter_playground/inherited_provider.dart';
+import 'package:flutter_playground/provider/change_notifier.dart';
+import 'package:flutter_playground/provider/inherited_provider.dart';
 
 /// FileName change_notifier_provider
 ///
